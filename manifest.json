@@ -1,0 +1,17 @@
+{
+    "name": "Sala de Aula Virtual",
+    "short_name": "Aula",
+    "description": "Aprenda de forma simples com vídeos educativos",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "/images/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sala de Aula Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <h1>Sala de Aula Virtual</h1>
+        <p>Aprenda de forma simples com vídeos educativos</p>
+    </header>
+
+    <main>
+        <div class="category-list">
+            <button onclick="loadVideos('tecnologia')">Tecnologia</button>
+            <button onclick="loadVideos('saude')">Saúde</button>
+            <button onclick="loadVideos('financas')">Finanças</button>
+            <button onclick="loadVideos('beneficios')">Beneficios</button>
+        </div>
+
+        <div id="video-list" class="video-list">
+            <!-- Os vídeos serão carregados aqui -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
